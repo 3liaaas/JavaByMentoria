@@ -1,3 +1,4 @@
+package PooBasico;
 
 // CLASSE: a classe/molde neste caso é Usuário
 public class Usuario {

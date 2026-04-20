@@ -22,7 +22,10 @@ public class ContaBancaria {
         saldo -= valor;
         return true;
     }
+    public static void main (String[] args) {
+        ContaBancaria conta = new ContaBancaria("001-5", 1000.0);
+        conta.sacar(250.0);
+    }
+
 }
 
-ContaBancaria conta = new ContaBancaria("001-5", 1000.0);
-conta.sacar(250.0);

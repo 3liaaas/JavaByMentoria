@@ -6,21 +6,15 @@ public class MonkeyClasse {
     private int idade;
     private boolean felicidade;
 
-    private void brincar(){felicidade = true;}
+    public void brincar(){felicidade = true;}
 
-    private void comerBanana(){
+    public void comerBanana(){
         if (buchoCheio = true){
             System.out.println("To de bucho cheio!");
         }
         ;}
 
-    public static void main(String[] args) {
-        MonkeyClasse elias = new MonkeyClasse();
-        elias.brincar();
 
-        MonkeyClasse fernanda = new MonkeyClasse();
-        fernanda.comerBanana();
-    }
 
 }
 
